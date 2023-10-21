@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWorks</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<header class="header">
+    <img src="images/homeWorks.png" alt="logo">
+</header>
+<div class="container">
+    <div class="signin">
+        <div class="title">Log in to the system</div>
+        <div class="text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.</div>
+        <div class="signin__form form">
+            <div class="form__control">
+                <label for="loginYourUsername" class="form__label">Your username</label>
+                <input type="text" class="form__input" id="loginYourUsername" name="yourUsername">
+
+            </div>
+            <div class="form__control">
+                <label for="loginPassword" class="form__label">Password</label>
+                <input type="password" class="form__input" id="loginPassword" name="password">
+            </div>
+            <div class="form__actions">
+                <button type="submit" class="form__button" id="loginButton">Sign In</button>
+            </div>
+        </div>
+    </div>
+    <div class="signup">
+        <div class="title">Get your free account</div>
+        <div class="text">
+            Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free Forever) anytime.
+        </div>
+        <div class="signup__form form">
+            <div class="form__control">
+                <label for="fullName" class="form__label">Full Name</label>
+                <input type="text" class="form__input" id="fullName" name="fullName">
+            </div>
+            <div class="form__control">
+                <label for="yourUsername" class="form__label">Your username</label>
+                <input type="text" class="form__input" id="yourUsername" name="yourUsername">
+            </div>
+            <div class="form__control">
+                <label for="email" class="form__label">E-mail</label>
+                <input type="email" class="form__input" id="email" name="email">
+            </div>
+            <div class="form__control">
+                <label for="password" class="form__label">Password</label>
+                <input type="password" class="form__input" id="password" name="password">
+            </div>
+            <div class="form__control">
+                <label for="repeatPassword" class="form__label">Repeat Password</label>
+                <input type="password" class="form__input" id="repeatPassword" name="repeatPassword">
+            </div>
+            <label for="checkbox" class="form__agree">
+                <input type="checkbox" id="checkbox" name="formAgree">Agree to our Terms of Service and Privacy
+                Statement
+            </label>
+            <div class="form__actions">
+                <button type="submit" class="form__button" id="signUp">Sign Up</button>
+                <button class="form__signin" id="signIn">Already have an account?</button>
+            </div>
+        </div>
+    </div>
+    <div class="big__image">
+        <img src="images/image.png" alt="Big Image">
+    </div>
+</div>
+<div class="popup" id="popup">
+    <div class="popup__message" id="popupMessage">
+        <div class="popup__text">На вашу почту вы слана ссылка, перейдите по ней, чтобы завершить регистрацию</div>
+        <button class="popup__button" id="popupButton">OK</button>
+    </div>
+</div>
+
+
+<script src="scripts/script.js"></script>
+</body>
+</html>

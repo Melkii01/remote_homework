@@ -1,0 +1,171 @@
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunitobold.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: #FFFFFB;*/
+    margin: 0 auto;
+    font-family: NunitoBold, sans-serif;
+    background: linear-gradient(to right, #fffffb 50%, #f8f8fa 50%);
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    padding: 27px 0 56px;
+}
+
+.header img {
+    margin-right: 6px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 56px 46px 0 63px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.signin, .signup {
+    max-width: 496px;
+}
+
+.signin {
+    display: none;
+}
+
+.title {
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 7px;
+}
+
+.text {
+    color: #636363;
+    font-size: 22px;
+    line-height: 27px; /* 122.727% */
+    margin-bottom: 42px;
+}
+
+.form__control   {
+    margin: 10px 0;
+}
+
+.form__label {
+    color: #C6C6C4;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.form__input {
+    border: 0;
+    /*border: 1px solid transparent;*/
+    color: #323232;
+    font-size: 20px;
+    width: 452px;
+    border-bottom: 1px solid #C6C6C4;
+    outline: none;
+}
+
+.form__agree {
+    margin: 20px 0 40px 0;
+    color: #636363;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.form__agree input {
+    margin-right: 10px;
+}
+
+.form__actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.form__button {
+    color: #FFF;
+    font-size: 20px;
+    padding: 21px 68px 25px;
+    width: 210px;
+    border-radius: 40px;
+    background: #DD3142;
+    border: 0;
+    cursor: pointer;
+}
+
+.form__signin {
+    color: #636363;
+    font-size: 16px;
+    margin: 44px 0;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.big_image {
+    /*background-color: #F8F8FA;*/
+    /*margin-left: 11px;*/
+
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_active {
+    opacity: 1;
+    pointer-events: all;
+    transition: 0.5s all;
+}
+
+.popup__message {
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background-color: #C6C6C4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.popup__text {
+    color: #15151c;
+    margin-bottom: 30px;
+}
+
+.popup__button {
+    bottom: 20px;
+    width: 100px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
