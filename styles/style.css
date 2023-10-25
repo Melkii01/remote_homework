@@ -67,10 +67,10 @@ body {
 .form__input {
     border: 0;
     /*border: 1px solid transparent;*/
-    color: #323232;
-    font-size: 200px;
+    color: #918888;
+    font-size: 20px;
     width: 452px;
-    border-bottom: 1px solid #b7b745;
+    border-bottom: 1px solid #7a7a77;
     outline: none;
 }
 
