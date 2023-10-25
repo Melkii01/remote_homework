@@ -18,7 +18,7 @@ body {
 
 .header {
     text-align: center;
-    padding: 27px 0 56px;
+    padding: 270px 0 506px;
 }
 
 .header img {
@@ -27,7 +27,7 @@ body {
 
 .container {
     max-width: 1200px;
-    padding: 56px 46px 0 63px;
+    padding: 561px 46px 0 63px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
