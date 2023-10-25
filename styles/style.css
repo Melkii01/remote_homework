@@ -94,12 +94,12 @@ body {
 }
 
 .form__button {
-    color: #FFF;
+    color: #8a3434;
     font-size: 20px;
     padding: 21px 68px 25px;
     width: 210px;
     border-radius: 40px;
-    background: #DD3142;
+    background: #942833;
     border: 0;
     cursor: pointer;
 }
