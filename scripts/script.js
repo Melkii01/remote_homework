@@ -119,7 +119,10 @@ window.onload = function () {
 
 console.log('dev-2')
 console.log('delete js?')
+
 console.log('do not?')
+console.log('No, do not')
+
 
 
 
