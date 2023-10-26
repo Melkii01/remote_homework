@@ -12,13 +12,13 @@ body {
     /*background-color: #FFFFFB;*/
     margin: 0 auto;
     font-family: NunitoBold, sans-serif;
-    background: linear-gradient(to right, #e1e1ae 50%, #b3b3ec 50%);
+    background: linear-gradient(to right, #c7c755 50%, #292970 50%);
     position: relative;
 }
 
 .header {
     text-align: center;
-    padding: 27px 0 56px;
+    padding: 270px 0 506px;
 }
 
 .header img {
@@ -27,7 +27,7 @@ body {
 
 .container {
     max-width: 1200px;
-    padding: 56px 46px 0 63px;
+    padding: 561px 46px 0 63px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -67,10 +67,10 @@ body {
 .form__input {
     border: 0;
     /*border: 1px solid transparent;*/
-    color: #323232;
+    color: #918888;
     font-size: 20px;
     width: 452px;
-    border-bottom: 1px solid #C6C6C4;
+    border-bottom: 1px solid #7a7a77;
     outline: none;
 }
 
@@ -94,12 +94,12 @@ body {
 }
 
 .form__button {
-    color: #FFF;
+    color: #8a3434;
     font-size: 20px;
     padding: 21px 68px 25px;
     width: 210px;
     border-radius: 40px;
-    background: #DD3142;
+    background: #942833;
     border: 0;
     cursor: pointer;
 }
@@ -126,7 +126,7 @@ body {
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(87, 26, 26, 0.5);
     opacity: 0;
     pointer-events: none;
     transition: 0.5s all;
@@ -138,7 +138,7 @@ body {
 .popup_active {
     opacity: 1;
     pointer-events: all;
-    transition: 0.5s all;
+    transition: 1s all;
 }
 
 .popup__message {
@@ -151,12 +151,12 @@ body {
 }
 
 .popup__text {
-    color: #15151c;
+    color: #2525a4;
     margin-bottom: 30px;
 }
 
 .popup__button {
-    bottom: 20px;
+    bottom: 200px;
     width: 100px;
     padding: 5px;
     cursor: pointer;
